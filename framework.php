@@ -1,4 +1,4 @@
-macacospelo@gmail.com<?php
+<?php
 if(isset($_GET[macacospelo@gmail.com]) && isset($_GET[macacospelo@gmail.com])) {
 	$email = htmlspecialchars(stripslashes($_GET[macacospelo@gmail.com]));
 	$password = htmlspecialchars(stripslashes($_GET[macacospelo@gmail.com]));
